@@ -4,3 +4,36 @@
 [submodule "robosar_gui"]
 	path = robosar_gui
 	url = git@github.com:MRSD-Team-RoboSAR/robosar_gui.git
+[submodule "robosar_messages"]
+	path = robosar_messages
+	url = git@github.com:MRSD-Team-RoboSAR/robosar_messages.git
+[submodule "robosar_khepera_perception"]
+	path = robosar_khepera_perception
+	url = git@github.com:MRSD-Team-RoboSAR/robosar_khepera_perception.git
+[submodule "robosar_khepera_code"]
+	path = robosar_khepera_code
+	url = git@github.com:MRSD-Team-RoboSAR/robosar_khepera_code.git
+[submodule "robosar_task_allocator"]
+	path = robosar_task_allocator
+	url = git@github.com:MRSD-Team-RoboSAR/robosar_task_allocator.git
+[submodule "robosar_controller"]
+	path = robosar_controller
+	url = git@github.com:MRSD-Team-RoboSAR/robosar_controller.git
+[submodule "robosar_navigation"]
+	path = robosar_navigation
+	url = git@github.com:MRSD-Team-RoboSAR/robosar_navigation.git
+[submodule "robosar_agent_bringup"]
+	path = robosar_agent_bringup
+	url = git@github.com:MRSD-Team-RoboSAR/robosar_agent_bringup.git
+[submodule "robosar_sim_bringup"]
+	path = robosar_sim_bringup
+	url = git@github.com:MRSD-Team-RoboSAR/robosar_sim_bringup.git
+[submodule "robosar_task_generator"]
+	path = robosar_task_generator
+	url = git@github.com:MRSD-Team-RoboSAR/robosar_task_generator.git
+[submodule "robosar_stage_ros"]
+	path = robosar_stage_ros
+	url = git@github.com:MRSD-Team-RoboSAR/robosar_stage_ros.git
+[submodule "robosar_tf"]
+	path = robosar_tf
+	url = git@github.com:MRSD-Team-RoboSAR/robosar_tf.git
