@@ -1,0 +1,6 @@
+[submodule "robosar_SLAM_toolbox"]
+	path = robosar_SLAM_toolbox
+	url = git@github.com:MRSD-Team-RoboSAR/robosar_SLAM_toolbox.git
+[submodule "robosar_gui"]
+	path = robosar_gui
+	url = git@github.com:MRSD-Team-RoboSAR/robosar_gui.git
