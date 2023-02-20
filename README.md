@@ -1,5 +1,5 @@
 # RoboSAR - Autonomous Search and Rescue System
-RoboSAR is an autonomous search and rescue system developed using the Robot Operating System (ROS) that uses a team of robots to explore and map an environment to search for victims. The system includes several subsystems, including a task generator, task allocator, multi-robot SLAM (MRSLAM), navigation among others. The system is also equipped with a user-friendly Mission Control GUI that allows users to monitor and interact with the system. The package also includes a multi-robot simulator based on the ROS Stage simulator for testing and debugging purposes.
+RoboSAR is an autonomous search and rescue system developed using the Robot Operating System (ROS) that uses a team of robots to explore and map an environment to search for victims. The system includes several subsystems, including a task generator, task allocator, multi-robot SLAM (MRSLAM), navigation among others. The system is also equipped with a user-friendly Mission Control GUI that allows users to monitor and interact with the system. The package also includes a multi-robot simulator based on the ROS Stage simulator for testing and debugging purposes. For more information about the RoboSAR project, please visit our [website](https://mrsdprojects.ri.cmu.edu/2022teamf/).
 
 ### Running the system
 To run the RoboSAR system in simulation, you need to launch various ROS nodes. You can do this by running the following commands:
@@ -15,6 +15,8 @@ python3 src/robosar/robosar_gui/src/robosar_gui.py
 ```
 Once you've launched all of these nodes, you can start the mission by clicking on the "Start Mission" button in the GUI.
 
+Here is the simulation run of the system in Tepper world
+![simulation_tepper](tepper_sim.gif)
 ### Subsystems
 Here is a brief overview of each subsystem in RoboSAR:
 
