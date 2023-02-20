@@ -16,7 +16,9 @@ python3 src/robosar/robosar_gui/src/robosar_gui.py
 Once you've launched all of these nodes, you can start the mission by clicking on the "Start Mission" button in the GUI.
 
 Here is the simulation run of the system in Tepper world
+
 ![simulation_tepper](tepper_sim.gif)
+
 ### Subsystems
 Here is a brief overview of each subsystem in RoboSAR:
 
