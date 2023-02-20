@@ -1,6 +1,20 @@
 # RoboSAR - Autonomous Search and Rescue System
 RoboSAR is an autonomous search and rescue system developed using the Robot Operating System (ROS) that uses a team of robots to explore and map an environment to search for victims. The system includes several subsystems, including a task generator, task allocator, multi-robot SLAM (MRSLAM), navigation among others. The system is also equipped with a user-friendly Mission Control GUI that allows users to monitor and interact with the system. The package also includes a multi-robot simulator based on the ROS Stage simulator for testing and debugging purposes.
 
+### Running the system
+To run the RoboSAR system in simulation, you need to launch various ROS nodes. You can do this by running the following commands:
+```bash
+roslaunch robosar_agent_bringup robosar_agent_bringup_node.launch
+roslaunch robosar_sim_bringup robosar_sim_[insert world name].launch
+roslaunch slam_toolbox robosar_mapping_sim.launch
+roslaunch robosar_task_generator task_generator.launch
+roslaunch robosar_navigation mission_executive.launch
+rosrun robosar_controller robosar_traffic_controller_node
+rosrun robosar_task_allocator mission_commander.py -s=true -t="high"
+python3 src/robosar/robosar_gui/src/robosar_gui.py
+```
+Once you've launched all of these nodes, you can start the mission by clicking on the "Start Mission" button in the GUI.
+
 ### Subsystems
 Here is a brief overview of each subsystem in RoboSAR:
 
@@ -31,14 +45,4 @@ This package is used to launch the multi-robot simulator for testing and debuggi
 ### Command to update all submodules
 * git submodule update --init --recursive
 * git submodule foreach git pull origin main
-
-### Commands to run the system
-* roslaunch robosar_agent_bringup robosar_agent_bringup_node.launch
-* roslaunch slam_toolbox robosar_mapping.launch
-* roslaunch robosar_navigation mission_executive.launch
-* rosrun robosar_controller robosar_traffic_controller_node
-* roslaunch robosar_task_generator task_generator.launch
-* rosrun robosar_task_allocator mission_commander.py -t="high"
-* python3 src/robosar_gui/src/robosar_gui.py
-* Click on start mission on the GUI
 
