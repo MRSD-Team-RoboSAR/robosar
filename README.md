@@ -20,7 +20,8 @@ Here is the simulation run of the system in Tepper world
 ![simulation_tepper](tepper_sim.gif)
 
 ### Subsystems
-![Highlevel architecture of RoboSAR](robosar_highlevel.jpg "Highlevel Architecture of the RoboSAR System")
+## Highlevel Architecture of the RoboSAR System
+![Highlevel architecture of RoboSAR](robosar_highlevel.jpg)
 Here is a brief overview of each subsystem in RoboSAR:
 
 ##### robosar_agent_bringup
