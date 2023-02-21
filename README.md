@@ -19,13 +19,19 @@ Here is the simulation run of the system in Tepper world
 
 ![simulation_tepper](tepper_sim.gif)
 
+## Running the system with your robots
+TODO
 ## Highlevel Architecture of the RoboSAR System
 ![Highlevel architecture of RoboSAR](robosar_highlevel.jpg)
 Here is a brief overview of each subsystem in RoboSAR:
 
+### Hardware specific packages
 ##### robosar_agent_bringup
 This package is responsible for launching the hardware drivers for the robots. It initializes the robot hardware and establishes the communication between the robots and the rest of the system. This package is essential for the proper functioning of the RoboSAR system, as it ensures that the hardware is properly configured and ready for use.
+##### robosar_khepera_code
+##### robosar_khepera_perception
 
+### Hardware agnostic packages
 ##### slam_toolbox
 This package provides SLAM (Simultaneous Localization and Mapping) functionality for the RoboSAR system. It uses sensor data from the robots to build a map of the environment and estimate the location of the robots within that map. This information is used by other subsystems of the RoboSAR system, such as the task allocator and navigation nodes, to plan and execute missions.
 
